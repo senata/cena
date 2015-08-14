@@ -13,20 +13,21 @@ default: &default
   adapter: postgresql
   encoding: unicode
   pool: 5
-  username: cena
-  password:
+  username: aetvpmptgftjzq
+  password: k2g19VGyovU_fp420zxkXl2C6n
+  host: ec2-54-163-228-0.compute-1.amazonaws.com
 
 
 development:
   <<: *default
-  database: cena
+  database: dfbjq0mp12m6e3
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: cena
+  database: dfbjq0mp12m6e3
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -49,6 +50,4 @@ test:
 #
 production:
   <<: *default
-  database: cena
-  username: root
-  password: <%= ENV['CENA_DATABASE_PASSWORD'] %>
+  database: dfbjq0mp12m6e3
