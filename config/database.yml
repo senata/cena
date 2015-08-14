@@ -15,7 +15,7 @@ default: &default
   pool: 5
   username: aetvpmptgftjzq
   password: k2g19VGyovU_fp420zxkXl2C6n
-  host: ec2-54-163-228-0.compute-1.amazonaws.com
+  host: postgres://aetvpmptgftjzq:k2g19VGyovU_fp420zxkXl2C6n@ec2-54-163-228-0.compute-1.amazonaws.com:5432/dfbjq0mp12m6e3
 
 
 development:
